@@ -1,0 +1,9 @@
+[Unit]
+Description=My daemon
+
+[Service]
+ExecStart=/usr/bin/monopolyv4
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 
